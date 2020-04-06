@@ -1,1 +1,1 @@
-# pytest_ci_demo
+A small mockup repo for pytest and CI demo
