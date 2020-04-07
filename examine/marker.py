@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-from result_parser import exam_results
+from examine.result_parser import exam_results
 
 class marker(exam_results):
     def __init__(self, result_path):
