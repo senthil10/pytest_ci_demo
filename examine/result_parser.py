@@ -23,6 +23,7 @@ class exam_results(object):
         with open(self.result_path, "r") as ifl:
             for st in ifl:
                 st = st.strip().split('\t')
+                st = [s for s in st if s != '']
                 row_lengths.add(len(st))
         return len(row_lengths) == 1
             
